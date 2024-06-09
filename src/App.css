@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(0.25turn, #0b004c, #473e7e, #0b004c);
+}
+h1 {
+  font-size: 40px;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+.todo {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.form {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.input {
+  width: 75%;
+  height: 50px;
+}
+.add-task {
+  height: 100%;
+  width: 25%;
+  color: whitesmoke;
+  background: #0b004c;
+  border: none;
+  font-weight: bold;
+}
+
+.add-task:hover {
+  height: 100%;
+  width: 25%;
+  color: #0b004c;
+  background: white;
+}
+.display-task {
+  color: red;
+}
